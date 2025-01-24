@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'KCC-Ganpan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.layout {
+    margin: 0;
+    background-image: url('../img/img5.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'KCC-Ganpan';
+}
+
+.profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 5px 7px rgba(0, 0, 0, 0.43);
+}
+
+.warp {
+    font-family: 'KCC-Ganpan';
+}
+
+.titleName {
+    font-family: 'BookkMyungjo-Bd';
+    font-family: 'SF_HambakSnow';
+    font-size: 2rem;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.title2 {
+    color: #575757;
+    letter-spacing: 10px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.title2 span {
+    color: rgb(165, 137, 101);
+    font-weight: bold;
+}
+
+.maincontainer {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.maincontainer img {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 5px 7px rgba(0, 0, 0, 0.43);
+}
+
+.maincontainer img {
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+}
+
+.container {
+    width: 800px;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: cadetblue;
+}
+
+.container {
+    width: 800px;
+    height: 300px;
+
+    overflow: hidden;
+}
+
+.main {
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main-id {
+
+    height: auto;
+    margin: 20px;
+}
+
+.main-id-img {
+    float: left;
+}
+
+.main-id-img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.main-id-text {
+    float: left;
+    margin-left: 20px;
+}
+
+.main-id-text p {
+    margin-top: 15px;
+}
+
+.main-text {
+    clear: both;
+    height: auto;
+    margin: 20px;
+    margin-top: 130px;
+}
+
+
+.imgArea {
+    font-size: 0;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+}
+
+.imgArea img {
+    width: 230px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.navbar li {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 5px 7px rgba(0, 0, 0, 0.43);
+    margin-left: 10px;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #575757;
+    transition: color 1s, font-size 0.5s ease;
+}
+
+.navbar a:hover {
+    color: black;
+    font-size: 20px;
+}

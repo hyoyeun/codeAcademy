@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Gyeonggi_Batang_Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Batang_Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.App {
+  width: 100vw;
+  height: 500vh;
+  background-color: rgb(243, 237, 222);
+  font-family: 'Gyeonggi_Batang_Regular';
+
+}
+
+.nav {
+  width: calc(100% - 17px);
+  height: 80px;
+  box-sizing: border-box;
+  background-color: rgb(242, 240, 215);
+  box-shadow: 0 0 0 3px rgb(174, 174, 151) inset;
+  overflow-x: hidden;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Navbar 링크 스타일 */
+.navLink {
+  position: relative;
+  /* ::before를 기준으로 위치 설정 */
+  color: black !important;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+/* 타원형 테두리 효과 */
+.navLink::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  /* 글자와 겹치게 */
+  left: 50%;
+  transform: translate(-50%, -50%) scaleX(0);
+  /* 초기에는 축소 */
+  width: 120%;
+  /* 글자보다 살짝 넓게 */
+  height: 110%;
+  /* 글자보다 살짝 높게 */
+  border: 1px solid black;
+  /* 테두리만 */
+  border-radius: 50%;
+  /* 타원형 */
+  background-color: transparent;
+  /* 내부 색상 없음 */
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 0;
+  /* 처음에는 보이지 않음 */
+}
+
+/* 호버 시 테두리가 부드럽게 나타남 */
+.navLink:hover::before {
+  transform: translate(-50%, -50%) scaleX(1);
+  /* 원래 크기로 확장 */
+  opacity: 1;
+  /* 선명하게 보임 */
+}
+
+/* 링크 색상 부드럽게 변경 */
+.navLink:hover {
+  color: #555 !important;
+  /* 글자 색상 살짝 변경 */
+}
+
+.brandName {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+  overflow-x: hidden;
+
+}
+
+.row h4 {
+  line-height: 50px;
+}
+
+
+.main-bg {
+  height: 350px;
+  width: 100%;
+  background: url(./img/b3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.btnBox{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+}
+.nameBtn { 
+margin-right: 100px;
+margin-bottom: 50px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}

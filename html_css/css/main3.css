@@ -1,0 +1,210 @@
+table,
+th,
+td {
+    padding: 5px 30px;
+    border-collapse: collapse;
+    background-color: white;
+    border-spacing: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+@font-face {
+    font-family: 'Ownglyph_ParkDaHyun';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Ownglyph_ParkDaHyun';
+}
+
+.bottom {
+    border-bottom: 2px solid rgb(227, 233, 245);
+}
+
+
+.container {
+    width: 100%;
+    height: 50%;
+    padding: 30px;
+    background-color: rgb(227, 233, 245);
+    overflow: hidden;
+}
+
+.tablecaption {
+    text-align: start;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.tablecontainer,
+.ex {
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+}
+
+.ex {
+    padding: 30px;
+    overflow: hidden;
+}
+
+
+.tableco img {
+    width: 100px;
+    height: 100px;
+}
+
+.ts {
+    text-align: start;
+}
+
+.te {
+    text-align: end;
+    line-height: 60px;
+}
+
+.f-b {
+    font-weight: bold;
+}
+
+.c-m {
+    color: midnightblue;
+}
+
+.c-b {
+    color: rgb(183, 217, 214)
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.vm {
+    vertical-align: middle;
+}
+
+.bs {
+    padding: 30px;
+    color: white;
+    background-color: midnightblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.title {
+    color: rgb(138, 208, 185);
+}
+
+button:hover {
+    background-color: red;
+}
+
+button:focus {
+    background-color: blue;
+}
+
+button:active {
+    background-color: aqua;
+    border: 5px solid black;
+}
+
+.input-test {
+    font-size: 20px;
+}
+
+.input-test:focus {
+    border-bottom: 3px solid red;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+
+.custom-link:link {
+    color: aqua;
+}
+
+.custom-link:visited {
+    color: brown;
+}
+
+.main-btn {
+    cursor: pointer;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+}
+
+.bg-violet {
+    background-color: violet;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.po-container {
+    width: 100%;
+    height: 250px;
+    background-color: wheat;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.po-re {
+    width: 30%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.po-re img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.overlay-container {
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    bottom: -50%;
+    transition: all 1s ease;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.overlay-container span {
+    opacity: 1;
+    /* 글자는 항상 선명 */
+    position: relative;
+    /* 투명도와 분리 */
+}
+
+.po-re:hover .overlay-container {
+    bottom: 0;
+}

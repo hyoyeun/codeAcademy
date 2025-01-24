@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제품관련</title>
+    <link rel="stylesheet" href="/html_css/css/main3.css">
+    <link rel="stylesheet" href="/html_css/css/normalize.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <table class="tablecontainer">
+            <caption class="tablecaption c-m">Your Shoppint Cart</caption>
+            <thead>
+                <colgroup>
+                    <col style="width: 15%">
+                    <col style="width: 55%">
+                    <col style="width: 10%;">
+                    <col style="width: 10%;">
+                    <col style="width: 10%;">
+                </colgroup>
+            </thead>
+            <tbody class="tableco">
+                <tr class="bottom title">
+                    <th colspan="2">ITEM</th>
+                    <th>AMOUNT</th>
+                    <th>PRICE</th>
+                    <th>TOTAL</th>
+                </tr>
+                <tr>
+                    <td rowspan="2"><img src="/html_css/img/sony.png" alt="카메라1"></td>
+                    <td class="ts f-b">SONY</td>
+                    <td rowspan="2" class="c-b">1</td>
+                    <td rowspan="2" class="f-b c-b">€1979.00</td>
+                    <td rowspan="2" class="f-b c-m">€1979.00</td>
+                </tr>
+                <tr class="bottom">
+                    <td class="ts c-b">FE 70-200mm F2.8 GM OSS </td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><img src="/html_css/img/sony2.png" alt="카메라2">
+                    </td>
+                    <td class="ts f-b">SONY</td>
+                    <td rowspan="2 " class="c-b">1</td>
+                    <td rowspan="2" class="f-b c-b">€989.00</td>
+                    <td rowspan="2" class="f-b c-m">€989.00</td>
+                </tr>
+                <tr class="bottom">
+                    <td class="ts c-b">Sonnar T* E 24mm F1.8ZA</td>
+                </tr>
+                <tr>
+                    <th colspan="5" class="f-b c-m te">$2968.00.00</th>
+                </tr>
+            </tbody>
+        </table>
+        <div class="ex vm">
+            <p class="fl vm"><a href="#" class="c-m">Edit your shopping cart </a></p>
+            <button class="fr vm bs">Choose payment method</button>
+            <input type="text" class="input-test">
+            <a href="index.html" class="custom-link">링크</a>
+        </div>
+        <!--OOCSS 방식 -->
+        <button class="main-btn bg-violet">더 알아보기</button>
+        <button class="main-btn bg-blue">구매하기</button>
+
+        <!-- bem 방식  -->
+        <div class="profile">
+            <img src="" alt="" class="profile__img">
+            <h4 class="profile__title"></h4>
+            <p class="profile__content"></p>
+            <button class="profile__button--red">버튼1</button>
+            <button class="profile__button--blue">버튼2</button>
+        </div>
+    </div>
+
+    <div class="po-container">
+        <div class="po-re">
+            <div class="overlay-container">
+                <span>$60</span>
+                <p>인기상품</p>
+            </div>
+            <img src="/html_css/img/카메라55.jpg" alt="">
+        </div>
+
+        <div class="po-re">
+            <div class="overlay-container">
+                <span>$60</span>
+                <p>인기상품</p>
+            </div>
+            <img src="/html_css/img/카메라66.jpg" alt="">
+        </div>
+
+        <div class="po-re">
+            <div class="overlay-container">
+                <span>$60</span>
+                <p>인기상품</p>
+            </div>
+            <img src="/html_css/img/카메라22.jpg" alt="">
+        </div>
+    </div>
+
+</body>
+
+</html>

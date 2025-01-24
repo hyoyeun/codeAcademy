@@ -1,0 +1,261 @@
+body {
+    width: 100vw;
+    height: 280vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    transform: scale(1);
+}
+
+div,
+input,
+textarea {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.aic {
+    align-items: center;
+}
+
+.container1 {
+    max-width: 2000px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(104, 176, 239), rgb(064, 084, 186));
+    height: 60%;
+}
+
+.iphonearea {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    color: white;
+}
+
+.i-text {
+    width: 55%;
+    height: 100%;
+    padding: 50px 200px;
+}
+
+.i-textbox {
+    word-break: keep-all;
+    font-size: 19px;
+}
+
+.i-img {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.btn {
+    padding: 15px;
+    margin-top: 20px;
+    background-color: rgb(36, 36, 33);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: all .7s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: black;
+    background-color: rgb(116, 224, 123);
+}
+
+.i-img img {
+    width: 50%;
+    height: 80%;
+}
+
+.textarea {
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.servicearea {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fd-r {
+    flex-direction: row;
+}
+
+.titleArea {
+    text-align: center;
+    color: white;
+}
+
+.iconArea {
+    width: 100%;
+    display: flex;
+}
+
+.serviceicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    flex-direction: column;
+}
+
+.serviceicon i {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 25px;
+}
+
+.serviceicon p,
+.serviceicon h4 {
+    color: white;
+}
+
+.container2 {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.co-b {
+    color: black;
+}
+
+.candoArea {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.backgroundArea {
+    width: 40%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    transition: all 1s;
+}
+.backgroundArea:hover{
+    outline: 31px solid white;
+    outline-offset: -30px;
+}
+
+
+.serviceicon-1 i {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(99, 99, 235);
+    border-radius: 50%;
+    text-align: center;
+    padding: 25px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width:1500px) {
+    .i-text {
+        width: 100%;
+    }
+
+    .i-text h1 {
+        font-size: 18px;
+    }
+
+    .i-textbox {
+        font-size: 15px;
+    }
+
+    .iconArea {
+        flex-wrap: wrap;
+    }
+
+    .serviceicon {
+        display: flex;
+        width: 50%;
+        flex-wrap: wrap;
+        font-size: 13px;
+        line-height: 7px;
+    }
+
+    .serviceicon i {
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        border-radius: 50%;
+        text-align: center;
+        padding: 20px;
+    }
+.serviceicon-1{
+    width: 30%;
+}
+
+    .serviceicon-1 i{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        text-align: center;
+        padding: 20px;
+        background-color: rgb(99, 99, 235);
+        border-radius: 50%;
+        text-align: center;
+        margin-bottom: 30px;
+        color:white;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .iphonearea {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .i-text {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .i-textbox {
+        width: 100%;
+    }
+
+    .i-img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+}
